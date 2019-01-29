@@ -1,0 +1,25 @@
+bprint, true
+thrint, 1e-10
+memory, 500
+!printeris, true
+!intfile, test/sh2.ints
+molecule = {
+	 charge, 0
+	 multiplicity, 1
+	 angstrom, true
+	 geometry = {
+	 	  H, 0.0, 0.98, -0.812
+		  H, 0.0, -0.98, -0.812
+		  S, 0.0, 0.0, 0.102
+	 }
+	 basis = {
+	       default, avqz
+	 }
+}
+hf (
+   maxiter, 60
+   precision, 1e-12
+   converge, 1e-4
+   !diis, false
+)
+

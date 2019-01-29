@@ -1,0 +1,12 @@
+direct, false
+bprint, false
+printorbs, true
+molecule = {
+         geometry = {
+                  he, 0.0, 0.0, 0.0
+         }
+         basis = {
+               default, cc-pvdz
+         }
+}
+rhf()

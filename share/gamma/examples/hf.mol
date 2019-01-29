@@ -1,0 +1,13 @@
+nthreads, 2
+memory, 4000
+molecule = {
+	 angstrom, true
+	 geometry = {
+	 	  H, 0.0, 0.0, 0.0
+		  Cl, 1.3, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avtz
+	 }
+}
+rhf()

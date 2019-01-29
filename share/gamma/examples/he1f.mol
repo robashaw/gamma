@@ -1,0 +1,25 @@
+direct, false
+bprint, true
+molecule = {
+         geometry = {
+                  he, 0.0, 0.0, 0.0
+         }
+         basis = {
+               default, onefunc
+         }
+}
+
+rhf ( 
+    momap, false
+    mapfile, he1fbefore.map
+    fineness, 75
+)
+optx(
+	trust, 10.0
+	gradconverge, 1e-6
+	momap, false
+	mapfile, he1fafter.map
+	fineness, 75
+	active, 1,3
+)
+!rhf()

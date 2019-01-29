@@ -1,0 +1,11 @@
+molecule = {
+	 geometry = {
+	 	  he, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, test
+	 }
+}
+printeris, true
+intfile, cdthe.ints
+hf()

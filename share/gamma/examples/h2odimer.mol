@@ -1,0 +1,35 @@
+memory, 500
+direct, true
+molecule = {
+	 geometry =  {
+         o,     -0.12552,        0.0,     -2.810334
+         h,      1.554457,       0.0,     -3.480377
+         h,      0.109296,       0.0,     -1.004003
+         o,      0.123264,       0.0,      2.683931
+         h,     -0.813402,       1.43347,  3.277009
+         h,     -0.813402,      -1.43347,  3.277009
+	 }
+	 fragments = {
+	 	   1, 3, 0, 1
+		   4, 6, 0, 1
+	 }
+	 basis = {
+	       default, avdz
+	 } 
+	 jkbasis = {
+	 	 default, avdz
+	 }
+	 ribasis = {
+	 	 default, avdz
+  	 }
+}
+ualmo (
+      local, true
+      dprint, true
+      df, true
+      rpa, false
+      rpax, 2
+      longrange, false
+      xcorrect, true
+      perturb, 1
+)

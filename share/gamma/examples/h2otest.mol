@@ -1,0 +1,28 @@
+memory, 2000
+direct, false
+!printorbs, true
+withcore, true
+!bprint, true
+molecule = {
+	 geometry = {
+	      O,  0.00000, -0.143226, 0.00000
+	      H,  1.63803684,  1.1365488, 0.00000
+    	      H, -1.63803684,  1.1365488, 0.00000
+	 }
+	 basis = {
+	       default, sto-3g
+	 }
+}
+rhf ()
+!mp2()
+rpa(
+	longrange, false
+	mu, 1.2
+)
+!ccsd(
+!	triples, true
+!)
+!optg(
+!	freq, true
+!	modes, true
+!)

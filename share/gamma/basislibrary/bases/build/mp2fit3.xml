@@ -1,0 +1,246 @@
+<root name="vdz">
+  <h nshells="6">
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 5.115890"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.142965"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.291662"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 1.914964"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.986401"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 1.172083"/>
+    </Shell>
+  </h>
+  <c nshells="18">
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 62.7453"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 13.8045"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 4.77277"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.51333"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.782697"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.409072"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.206796"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 20.8851"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 6.00523"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 1.7206"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.754465"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.321667"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 10.1715"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 2.67844"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 0.922515"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 0.340842"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 2.74293"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 0.895756"/>
+    </Shell>
+  </c>
+  <n nshells="18">
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 87.6864"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 20.4679"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 7.62436"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 2.34426"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.12324"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.723539"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.327261"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 29.2373"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 8.55299"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 2.53364"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 1.09461"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.461104"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 12.3278"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 3.42816"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 1.28537"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 0.47785"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 3.40118"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 1.33473"/>
+    </Shell>
+  </n>
+  <o nshells="18">
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 109.461000"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 25.578000"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 9.551480"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 2.939600"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.396380"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.905061"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.421376"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 36.129200"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 10.881700"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 3.205940"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 1.403870"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.612763"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 15.251100"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 4.520870"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 1.812210"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 0.592201"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 4.221940"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 1.790210"/>
+    </Shell>
+  </o>
+  <f nshells="18">
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 130.337"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 31.8393"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 11.0179"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 3.70677"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.73657"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 1.08424"/>
+    </Shell>
+    <Shell lval="s" nexp="1">
+      <xc c=" 1.0" x=" 0.536595"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 42.9271"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 12.6314"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 4.25791"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 1.91218"/>
+    </Shell>
+    <Shell lval="p" nexp="1">
+      <xc c=" 1.0" x=" 0.78673"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 19.9253"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 5.96664"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 2.44678"/>
+    </Shell>
+    <Shell lval="d" nexp="1">
+      <xc c=" 1.0" x=" 0.743695"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 5.75413"/>
+    </Shell>
+    <Shell lval="f" nexp="1">
+      <xc c=" 1.0" x=" 2.44579"/>
+    </Shell>
+  </f>
+</root>

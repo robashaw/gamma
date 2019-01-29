@@ -1,0 +1,20 @@
+molecule = {
+	 angstrom, true	 
+	 geometry = {
+	 	  N, 0.0, 0.0, 0.110
+		  H, 0.0, 0.932, -0.256
+		  H, 0.807, -0.466, -0.256
+		  H, -0.807, -0.466, -0.256
+	 }
+	 basis = {
+	       default, 6-311gdp
+	 }
+} 
+memory, 1000
+nthreads, 4
+printeris, true
+intfile, test/nh3.ints
+rhf()
+ccsd(
+	triples, true
+)

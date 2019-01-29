@@ -1,0 +1,35 @@
+memory, 4000
+nthreads, 2
+direct, false
+molecule = {
+	 angstrom, true
+	 geometry = {
+	 	  h, 0.0, 0.0, 0.0
+		  h, 0.71815, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avqz
+	 }
+}	 
+!rhf(
+!	momap, false
+!	mapfile, h2before.map
+!	fineness, 75
+!)
+!mp2()
+!uhf()
+!mp2()
+!optg(
+!	freq,true
+!)
+!optx()
+!optg()
+!optx(
+!	momap, true
+!	mapfile, h2after.map
+!	fineness, 75
+!)
+!ccsd(
+!	converge, 1e-6
+!)
+rhf()

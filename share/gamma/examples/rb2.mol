@@ -1,0 +1,17 @@
+memory, 1000
+direct, false
+molecule = {
+	 geometry = {
+	 	  Rb, 0.0, 0.0, 0.0
+		  Rb, 0.0, 0.0, 7.9
+ 	 }
+	 basis = {
+	       default, wcvdzpp
+	 }
+	 ecp = {
+	     rb, ecp28mdf
+	 }
+}
+rhf()
+mp2()
+	 

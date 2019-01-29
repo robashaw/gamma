@@ -1,0 +1,10 @@
+molecule = {
+	 multiplicity, 3
+	 geometry = {
+	 	  o, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avqz
+	 }
+}
+uhf()

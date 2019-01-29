@@ -1,0 +1,17 @@
+memory, 1000
+direct, false
+molecule = {
+	 geometry = {
+	 	  x, 0.0, 0.0, 0.0
+	 	  he, -2.8, 0.0, 0.0
+		  he, 2.8, 0.0, 0.0
+	 }
+	 basis = {
+	       	  x, avdzx
+	       	  he, avdz
+	 }
+}				      
+rhf()
+ccsd(
+	triples, true
+)

@@ -1,0 +1,16 @@
+molecule = {
+	 angstrom, true
+	 geometry = {
+	 	  h, 0.0, 0.0, 0.0
+		  br, 1.5, 0.0, 0.0
+	 }
+	 basis = {
+	       default, cc-pvdz
+	       br, cc-pvdz-pp
+	 }
+	 ecp = {
+	     br, ecp10mdf
+	 }
+}
+hf()
+

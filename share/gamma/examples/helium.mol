@@ -1,0 +1,13 @@
+molecule = {
+	 geometry = {
+	 	  he, 0.0, 0.0, 0.0
+	 }
+	 basis = {	
+	       default, avdz
+	 }
+}
+rhf()
+rpa(
+	longrange, true
+	mu, 0.5
+)

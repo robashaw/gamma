@@ -1,0 +1,27 @@
+memory, 500
+direct, true
+bprint, true
+molecule = {
+	 angstrom, true
+	 geometry = {
+ O,          1.3713218506,        0.1443839786,       -0.4014780051
+ H,          1.8928086272,        0.4860470340,        0.3358810903
+ H,          0.4546022869,        0.1669410666,       -0.0781236707
+	 }
+	 basis = {
+	       default, avtz
+	 }
+	 jkbasis = {
+	       default, avtz
+	 }
+	 ribasis = {
+	       default, avtz
+	 }
+}
+rhf(
+	df, true
+	guess, soad
+)
+dfmp2()
+
+

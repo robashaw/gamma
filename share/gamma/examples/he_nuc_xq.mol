@@ -1,0 +1,28 @@
+memory, 2000
+bprint, true
+molecule = {
+	 geometry = {
+	 	  He, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, even
+	 }
+}
+nuctest(
+	maxiter, 100
+	converge, 1e-7
+)
+rhf()
+molecule = {
+	 geometry = {
+	 	  He, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avdzx
+	 }
+}
+nuctest (
+	maxiter, 100
+	converge, 1e-7
+)
+rhf()

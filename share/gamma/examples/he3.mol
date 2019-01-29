@@ -1,0 +1,24 @@
+memory, 1000
+direct, false
+printorbs, true
+molecule = {
+	 geometry = {
+	 	  x,  2.0, 0.0, 0.0
+		  x,  1.0, 1.732, 0.0
+		  x,  3.0, 1.732, 0.0
+	 	  he, 0.0, 0.0, 0.0
+		  he, 4.0, 0.0, 0.0
+		  he, 2.0, 3.464, 0.0
+	 }
+	 basis = {
+	       he, avdz
+	       x, s3p1
+	 }
+}	 
+rhf(
+	momap, true
+	mapfile, he3x0.map
+	fineness, 100
+	orbital, 0
+	converge, 1e-9
+)

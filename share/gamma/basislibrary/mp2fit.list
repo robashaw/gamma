@@ -1,0 +1,17 @@
+<root name="mp2fit">
+  <Item key="avdz" value="0"/>
+  <Item key="aug-cc-pvdz" value="0"/>
+  <Item key="avqz" value="1"/>
+  <Item key="aug-cc-pvqz" value="1"/>
+  <Item key="avtz" value="2"/>
+  <Item key="aug-cc-pvtz" value="2"/>
+  <Item key="vdz" value="3"/>
+  <Item key="cc-pvdz" value="3"/>
+  <Item key="vdz-f12" value="4"/>
+  <Item key="vdzf12" value="4"/>
+  <Item key="cc-pvdz-f12" value="4"/>
+  <Item key="vqz" value="5"/>
+  <Item key="cc-pvqz" value="5"/>
+  <Item key="vtz" value="6"/>
+  <Item key="cc-pvtz" value="6"/>
+</root>

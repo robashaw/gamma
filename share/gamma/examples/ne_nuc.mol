@@ -1,0 +1,13 @@
+memory, 2000
+molecule = {
+	 geometry = {
+	 	  Ne, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avtz
+	 }
+}
+nuctest(
+	maxiter, 100
+)
+rhf()

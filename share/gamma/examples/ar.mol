@@ -1,0 +1,15 @@
+memory, 1000
+direct, false
+bprint, true
+molecule = {
+	 geometry = {
+	 	  ar, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, lanl2dz
+	 }
+	 ecp = {
+	       ar, lanl2
+	 }
+}	 
+rhf()

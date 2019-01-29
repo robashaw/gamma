@@ -1,0 +1,22 @@
+memory, 4000
+nthreads, 2
+direct, false
+molecule = {
+	 geometry = {
+	 	  x, 0.0, -0.3, 0.0
+	 	  x, -0.3, 0.0, 0.0
+	 	  he, 0.0, 0.0, 0.0
+		  x, 0.3, 0.0, 0.0
+		  x, 0.0, 0.3, 0.0
+	 }
+	 basis = {
+	       he, onefunc
+	       x, avdz
+	 }
+}	 
+optg( 
+	maxiter, 50
+)
+optx(
+	trust, 30.0
+)

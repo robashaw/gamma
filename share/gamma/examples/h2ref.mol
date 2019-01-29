@@ -1,0 +1,13 @@
+memory, 4000
+nthreads, 2
+direct, false
+molecule = {
+	 geometry = {
+	 	  h, 0.0, 0.0, 0.0
+		  h, 1.380277, 0.0, 0.0
+	 }
+	 basis = {
+	       default, sto-3g
+	 }
+}	 
+rhf()

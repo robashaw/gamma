@@ -1,0 +1,30 @@
+memory, 1000
+direct, false
+molecule = {
+	 geometry = {
+	 	  x, -0.062321484, 0.0, -1.847318451
+		  he, -0.007140125, 0.0, -4.851811756
+		  o, -0.117502843, 0.0, 1.157174854
+		  h, 1.25504536, 0.0, -0.033769762
+		  h, 0.700795633, 0.0, 2.779711525
+	 }
+	 basis = {
+	       he, avdz
+	       o, avdz
+	       h, avdz
+	       x, s1
+	 }
+}	 
+optx(
+	guess, hcore
+	active, 1
+	trust, 5.0
+	gradconverge, 2e-5
+	mp2, true
+)
+rhf(
+	guess, hcore
+)
+ccsd(
+	triples, true
+)

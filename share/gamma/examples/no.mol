@@ -1,0 +1,20 @@
+direct, true
+memory, 1000
+nthreads, 4
+molecule = {
+	 multiplicity, 2
+	 angstrom, true
+	 geometry = {
+	 	  N, 0.0, 0.0, 0.0
+		  O, 0.0, 0.0, 1.15
+         }
+	 basis = {
+	       default, avdz
+	 }
+	 jkbasis = {
+	       default, avdz
+	 }
+}
+uhf(
+	df, true
+)

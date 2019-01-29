@@ -1,0 +1,15 @@
+memory, 2000
+bprint, true
+molecule = {
+	 geometry = {
+	 	  He, 0.0, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avsz
+	 }
+}
+nuctest(
+	maxiter, 100
+	converge, 1e-7
+)
+rhf()

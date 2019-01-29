@@ -1,0 +1,23 @@
+memory, 1000
+direct, false
+molecule = {
+	 geometry = {
+	 	  X, 0.0, 0.0, 0.0
+	 	  Rb, 0.0, 0.0, -3.45
+		  Rb, 0.0, 0.0, 3.45
+ 	 }
+	 basis = {
+	       rb, wcvdzpp
+	       x, s1
+	 }
+!	 ecp = {
+!	     rb, ecp28mdf
+!	 }
+}
+optx (
+        active, 1
+        trust, 5.0
+        gradconverge, 2e-5
+        mp2, true
+)
+	 

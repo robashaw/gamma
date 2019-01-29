@@ -1,0 +1,22 @@
+memory, 4000
+nthreads, 2
+direct, false
+molecule = {
+	 angstrom, true
+	 geometry = {
+	 	  h, 0.0, 0.0, 0.0
+		  x, 0.265, 0.0, 0.0
+		  x, 0.53, 0.0, 0.0
+		  h, 0.8, 0.0, 0.0
+	 }
+	 basis = {
+	       default, avdz
+	 }
+!	 frozen = {
+!	 	2, 3
+!	}
+}	 
+!rhf()
+!uhf()
+!mp2()
+optg()
